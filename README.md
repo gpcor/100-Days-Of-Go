@@ -8,3 +8,8 @@ proof of work.
 Still working through Go Udemy course, found :
 https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797306#overview 
 Completed up through lesson 31. Still confused about when to use Receivers
+
+### Day 1 (4MAR2021)
+I did a couple of Katas from CodeWars.com
+I feel more dumb than when I initiall started. 
+I don't know enough to always get a solution, but the ones I see always make sense.
