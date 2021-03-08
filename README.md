@@ -4,6 +4,11 @@ This is the log for my 100 days of Code using Golang. I will occasionally commit
 finished projects here as proof of work. Most days will be a short log to show
 proof of work.
 
+### Day 5 (7MAR2021)
+Didn't get much done today. Just tried some stuff on my own regarding the card
+program. Had to do some homework and offline stuff. Now I gotta go to the airport.
+Hoping for more work tomorrow.
+
 ### Day 4 (6MAR2021)
 This commit is a tiny bit late because I was distracted. But I did code today.
 I did more Udemy class and learned a lot more about Structs, Pointers, and Maps.
