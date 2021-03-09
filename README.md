@@ -4,6 +4,13 @@ This is the log for my 100 days of Code using Golang. I will occasionally commit
 finished projects here as proof of work. Most days will be a short log to show
 proof of work.
 
+### Day 6 (8MAR2021)
+Worked on a code kata that I couldn't wrap my head around. I seem to be missing
+something in my fundamentals, although I think this is in part due to the time 
+when I am trying to code. I need to reverse my schedule. Get up earlier, code 
+before work, and then I can fit in any code practice I may want in the evening if
+I can. I don't have a lot of attention economy left at this time of night.
+
 ### Day 5 (7MAR2021)
 Didn't get much done today. Just tried some stuff on my own regarding the card
 program. Had to do some homework and offline stuff. Now I gotta go to the airport.
