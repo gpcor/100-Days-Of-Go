@@ -4,6 +4,16 @@ This is the log for my 100 days of Code using Golang. I will occasionally commit
 finished projects here as proof of work. Most days will be a short log to show
 proof of work.
 
+### Day 7 (9MAR21)
+Another night of code katas, another night of not feeling like I got anywhere.
+It sucks when you feel like you're doing good in a tutorial and like things are
+clicking, but then you put it into practice (on something like a code kata) and 
+it doesn't seem to go as planned. That said, I'm only a week into learning Go and
+taking this all seriously, so it's to be expected. No one ever got good in a week.
+In the words of Cal Newport from "So Good they Can't Ignore You", you have to have
+a Craftman's Mindset if you are going to build any usable career capital. Deliberate
+practice and good mental strain are the only path to Mastery.
+
 ### Day 6 (8MAR2021)
 Worked on a code kata that I couldn't wrap my head around. I seem to be missing
 something in my fundamentals, although I think this is in part due to the time 
