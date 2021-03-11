@@ -4,6 +4,16 @@ This is the log for my 100 days of Code using Golang. I will occasionally commit
 finished projects here as proof of work. Most days will be a short log to show
 proof of work.
 
+### Day 8 (19MAR21)
+I spread my programming practice throughout the day when I'd have breaks at work. 
+This seemed to be better than trying to cram my practice in to the last 2 hours
+of the day. I struggled really bad with a 6 kyu problem that left me a little
+disheartened, but I learned quite a bit from the solutions so I was able to
+take that knowledge and apply it to a less complicated problem. I ended the night
+with a better understanding of Strings and Bytes and how for loops can iterate
+through the characters, as well as UTF-8 encoding (sorta). Tomorrow I want to do
+more of my Udemy course since the next section is about interfaces.
+
 ### Day 7 (9MAR21)
 Another night of code katas, another night of not feeling like I got anywhere.
 It sucks when you feel like you're doing good in a tutorial and like things are
