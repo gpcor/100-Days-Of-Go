@@ -4,7 +4,18 @@ This is the log for my 100 days of Code using Golang. I will occasionally commit
 finished projects here as proof of work. Most days will be a short log to show
 proof of work.
 
-### Day 8 (19MAR21)
+### Day 9 (12MAR21)
+I missed yesterdays programming session. I made a promise to the wife that I'd
+stay off the computer for the afternoon since she had to go back to Memphis today,
+so I stayed off and didn't code. I thought I'd be more upset about it, but it
+was more than worth it. Family time is important. 
+
+I spent some time in the Udemy course tonight learning about interfaces. It seems
+like a pretty neat type that can be used to group different types together so that
+they can make use of common functions, rather than writing out a different function
+for every single type. I'll need more practice with it but it seems very interesting.
+
+### Day 8 (10MAR21)
 I spread my programming practice throughout the day when I'd have breaks at work. 
 This seemed to be better than trying to cram my practice in to the last 2 hours
 of the day. I struggled really bad with a 6 kyu problem that left me a little
