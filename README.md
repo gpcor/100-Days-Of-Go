@@ -4,6 +4,17 @@ This is the log for my 100 days of Code using Golang. I will occasionally commit
 finished projects here as proof of work. Most days will be a short log to show
 proof of work.
 
+### Day 10 (13MAR21)
+Tonight, after two very satisfying glasses of Glenfiddich 15, I sat down and decided
+to code something simple without the aid of a tutorial or guide. So I made a simple
+CLI calculator that, instead of user input, takes 3 command line arguments; Two
+numbers and a string for add/subtract/multiply/divide. The numbers are converted
+to Float64 and are passed to their appropriate operation function. The result is
+simply return to back to the command line. It's not much, but I was proud that
+I was able to figure this out. Even for the command line arguments and ParseFloat
+I simply read the Golang documentation. I'm satisfied with the effort and it has 
+motivated me to strike out on my own and build more programs on my own. 
+
 ### Day 9 (12MAR21)
 I missed yesterdays programming session. I made a promise to the wife that I'd
 stay off the computer for the afternoon since she had to go back to Memphis today,
