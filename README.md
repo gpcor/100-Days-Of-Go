@@ -4,6 +4,18 @@ This is the log for my 100 days of Code using Golang. I will occasionally commit
 finished projects here as proof of work. Most days will be a short log to show
 proof of work.
 
+### Day 11 (14MAR21)
+I did two code katas today from Codewars, both were 7 kyu. I did one this morning
+and one this evening. I had quite a bit of homework to work on so I didn't get to
+do much, but I learned some new stuff about the Strings package which I'm always
+happy about, such as strings.Replace, strings.ReplaceAll, and strings.TrimSpace.
+That last one is intersting but I'm unsure how it works. I'm now working on naming
+a project that I can work on for a bit. I think I'll finish the Udemy course this
+week and start the project come this weekend. My only fear is I won't have much
+time to code between homework assignments since I have two very project heavy classes
+that are running concurrently. I'll be really glad when I'm done with school in
+August. 
+
 ### Day 10 (13MAR21)
 Tonight, after two very satisfying glasses of Glenfiddich 15, I sat down and decided
 to code something simple without the aid of a tutorial or guide. So I made a simple
