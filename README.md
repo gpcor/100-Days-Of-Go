@@ -4,6 +4,7 @@ This is the log for my 100 days of Code using Golang. I will occasionally commit
 finished projects here as proof of work. Most days will be a short log to show
 proof of work.
 
+
 ### Day 11 (14MAR21)
 I did two code katas today from Codewars, both were 7 kyu. I did one this morning
 and one this evening. I had quite a bit of homework to work on so I didn't get to
