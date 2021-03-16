@@ -1,28 +1,38 @@
 package main
 
-import (
-	"fmt"
-	"strings"
-)
+import "fmt"
 
-func main() {
-	fmt.Println(toNato("if you can read this, you can read nato"))
+type shape interface {
+	getArea() float64
 }
 
-func toNato(words string) string {
-	nato := []string{"Alfa", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf", "Hotel", "India", "Juliett", "Kilo", "Lima", "Mike", "November", "Oscar", "Papa", "Quebec", "Romeo", "Sierra", "Tango", "Uniform", "Victor", "Whiskey", "X-ray", "Yankee", "Zulu"}
-	newString := strings.Split(words, "")
-	// var betterString []string
+type square struct {
+	sideLength float64
+}
 
-	for i, w := range newString {
-		for _, n := range nato {
-			if strings.HasPrefix(strings.ToLower(n), strings.ToLower(w)) {
-				newString[i] = n
-			}
-		}
-	}
+type triangle struct {
+	base   float64
+	height float64
+}
 
-	// fmt.Println(betterString)
+func main() {
+	square := square{sideLength: 10}
+	triangle := triangle{base: 10, height: 15}
 
-	return strings.ReplaceAll(strings.Join(newString, " "), "   ", " ")
+	printArea(square)
+	printArea(triangle)
+
+}
+
+func (sq square) getArea() float64 {
+	return sq.sideLength * sq.sideLength
+}
+
+func (t triangle) getArea() float64 {
+	return t.base * t.height * 0.5
+}
+
+func printArea(s shape) {
+	fmt.Println(s)
+	fmt.Println(s.getArea())
 }

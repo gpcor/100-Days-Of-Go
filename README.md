@@ -4,6 +4,14 @@ This is the log for my 100 days of Code using Golang. I will occasionally commit
 finished projects here as proof of work. Most days will be a short log to show
 proof of work.
 
+### Day 12 (15MAR21)
+Today was all about wrapping up the lesson about interfaces. It's still a bit of
+a wonky subject if I'm being honest, and in the small code examples we are making
+up to explain them I have a hard time imagining what they might look like in a 
+large scale application. But I can understand how they might be useful. Being able
+to use one functon for multiple different objects (assuming those objects are 
+similar in function) can help to cut down on excessive code. I look forward to
+figuring out how to implement them more. 
 
 ### Day 11 (14MAR21)
 I did two code katas today from Codewars, both were 7 kyu. I did one this morning
