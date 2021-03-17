@@ -4,6 +4,22 @@ This is the log for my 100 days of Code using Golang. I will occasionally commit
 finished projects here as proof of work. Most days will be a short log to show
 proof of work.
 
+### Day 13 (16MAR21)
+I finished the "Hard mode Interfaces" assignment with relative ease tonight, and
+did so without the tutorial telling me how which was really rewarding. I am 
+officially on the last section of the course and I'm pumped. I've started learning
+about Go Routines and Channels. Go routines seem super interesting and can really
+speed up your program if used correctly. I could see how something like that could
+be use on a web crawler or maybe even a discord bot to allow for running several 
+different commands at a time. When I rain my example program with a Go routine,
+however, it didn't output anything like it did before. From what I've learned, 
+each go routine I rain for my siteRequest function hit a blocking call on the
+"http.Get()" function. Likely, when each routine hit that blocking call they parent
+routine simply stopped. I'm guessing I will figure out how to fix that when I get
+into the next lesson, which is all about channels. 
+I also learned the difference between concurrency and parallelism today, which was
+a neat concept to dip my toes into. 
+
 ### Day 12 (15MAR21)
 Today was all about wrapping up the lesson about interfaces. It's still a bit of
 a wonky subject if I'm being honest, and in the small code examples we are making

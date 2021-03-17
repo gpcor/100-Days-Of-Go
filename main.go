@@ -1,38 +1,24 @@
 package main
 
-import "fmt"
-
-type shape interface {
-	getArea() float64
-}
-
-type square struct {
-	sideLength float64
-}
-
-type triangle struct {
-	base   float64
-	height float64
-}
+import (
+	"fmt"
+	"net/http"
+)
 
 func main() {
-	square := square{sideLength: 10}
-	triangle := triangle{base: 10, height: 15}
+	sites := []string{"https://google.com/", "https://facebook.com/", "https://twitter.com/", "https://github.com/"}
 
-	printArea(square)
-	printArea(triangle)
-
+	for _, link := range sites {
+		go siteRequest(link)
+	}
 }
 
-func (sq square) getArea() float64 {
-	return sq.sideLength * sq.sideLength
-}
+func siteRequest(s string) {
+	_, err := http.Get(s)
+	if err != nil {
+		fmt.Println("Site may be down: ", s)
+		return
+	}
 
-func (t triangle) getArea() float64 {
-	return t.base * t.height * 0.5
-}
-
-func printArea(s shape) {
-	fmt.Println(s)
-	fmt.Println(s.getArea())
+	fmt.Println(s, "is up!")
 }
